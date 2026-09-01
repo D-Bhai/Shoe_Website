@@ -354,6 +354,13 @@
     z-index: 100;
 }
 
+@media (max-width: 992px) {
+    .cursor{
+        display: none;
+    }
+}
+
+
 @media (max-width: 768px) {
     .carrousel_img {
         height: 500px;
@@ -376,6 +383,10 @@
         width: 40px;
         margin-top: 3px;
     }
+
+    .cursor{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 426px) {
@@ -389,6 +400,14 @@
 
     .hide1 {
         display: initial;
+    }
+
+    .brand-name {
+        font-size: 25px;
+    }
+
+    .cursor{
+        display: none;
     }
 }
 
@@ -413,6 +432,10 @@
 
     .hide1 {
         display: initial;
+    }
+
+    .cursor{
+        display: none;
     }
 }
 
@@ -450,6 +473,10 @@
     .carrousel_img {
         height: 200px;
     }
+
+    .cursor{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 312px) {
@@ -460,6 +487,10 @@
 
     .brand-name {
         font-size: 21px;
+    }
+
+    .cursor{
+        display: none;
     }
 }
 
@@ -472,6 +503,10 @@
     .brand-name {
         font-size: 20px;
     }
+
+    .cursor{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 295px) {
@@ -482,6 +517,10 @@
 
     .brand-name {
         font-size: 19px;
+    }
+
+    .cursor{
+        display: none;
     }
 }
 
@@ -494,6 +533,10 @@
     .brand-name {
         font-size: 18px;
     }
+
+    .cursor{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 279px) {
@@ -504,5 +547,9 @@
 
     .brand-name {
         font-size: 17px;
+    }
+
+    .cursor{
+        display: none;
     }
 }

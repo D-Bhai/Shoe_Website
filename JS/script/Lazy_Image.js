@@ -13,7 +13,7 @@ let observer = new IntersectionObserver(
     },
     {
         root: null,
-        threshold: 0.05,
+        threshold: 0.01,
     }
 );
 imgs.forEach((img) => {

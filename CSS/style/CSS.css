@@ -33,20 +33,32 @@
     background: linear-gradient(to right, rgb(47, 160, 132), rgb(40, 90, 72), rgb(64, 138, 113), rgb(44, 104, 123));
 }
 
-#nav-link_active_1{
+#nav-link_active_1 {
     width: 45px;
 }
 
-#nav-link_active_2{
+#nav-link_active_2 {
     width: 64px;
 }
 
-#nav-link_active_3{
+#nav-link_active_3 {
     width: 89px;
 }
 
-#nav-link_active_4{
+#nav-link_active_4 {
     width: 64px;
+}
+
+#nav-link_active_2:hover {
+    width: 75px;
+}
+
+#nav-link_active_3:hover {
+    width: 100px;
+}
+
+#nav-link_active_4:hover {
+    width: 75px;
 }
 
 .brand-name {

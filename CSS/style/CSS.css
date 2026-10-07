@@ -536,3 +536,7 @@
         margin-top: 22%;
     }
 }
+
+.image-fit .carousel-item a img {
+    height: 100vh;
+}

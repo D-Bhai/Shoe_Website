@@ -130,6 +130,8 @@ body, html{
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
+    position: relative;
+    z-index: auto;
 }
 
 .wrapper::-webkit-scrollbar {
@@ -137,7 +139,7 @@ body, html{
 }
 
 .wrapper .item {
-    min-width: 270px;
+    min-width: 250px;
     height: 420px;
     text-align: left;
     border: 1px solid black;
@@ -148,17 +150,28 @@ body, html{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-.d {
-    padding: 0px 20px 0px 10px;
+.container-lg > .slider {
+    position: relative;
+    z-index: auto;
 }
+
+.wrapper .item .item-top > .d {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    color: black;
+    padding: 3px 9px;
+}   
 
 .wrapper .item .item-top {
     max-height: 50%;
     max-width: 270px;
-    margin: 8px;
+    margin: 5px 0px 15px 0px;
     text-align: center;
     border-radius: 5%;
     filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.5));
+    position: relative;
 }
 
 .wrapper .item .item-top img {

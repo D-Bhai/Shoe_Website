@@ -217,6 +217,19 @@ body, html{
     transition: opacity 1.5s ease-in-out;
 }
 
+.discount{
+    position: relative;
+}
+
+.discount > .d {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    color: black;
+    padding: 3px 9px;
+}
+
 .data h1 {
     font-weight: bolder;
     color: red;
